@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    height: 89px;
+    background-color: #fff;
+    padding: 0 55px;
+    z-index: 1;
+}
+
+.header__navigation_logo {
+    height: 69px;
+    width: 69px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header__navigation_items {
+    list-style: none; 
+}
+
+.navigation__item_name {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+
+.navigation__item_username {
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+.navigation__item_email {
+    font-size: 14px;
+    color: #6A6A6A;
+}
+
+.header__btn_logout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

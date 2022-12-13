@@ -1,0 +1,51 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.section__authform {
+    width: 300px;
+    background-color: #fff;
+    height: 200px;
+    border-radius: 13px;
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container__icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.container__icon_google {
+    font-size: 40px;
+    padding: 8px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    transition: 0.13s ease-in-out;
+
+    &:hover {
+        background-color: rgba(153, 153, 153, 0.15);
+    }
+}
+
+.container__icon_github {
+    font-size: 40px;
+    padding: 8px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    transition: 0.13s ease-in-out;
+
+    &:hover {
+        background-color: rgba(153, 153, 153, 0.15);
+    }
+}

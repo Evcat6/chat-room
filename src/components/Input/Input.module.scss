@@ -1,0 +1,40 @@
+.input__group {
+    width: 100%;
+    background-color: #fff;
+    height: 45px;
+    border-radius: 19px;
+    position: relative;
+}
+
+.input {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 40px;
+    border: none;
+    height: 20px;
+    width: 70%;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+.input__toolbar {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 20px;
+    display: flex;
+    font-size: 25px;
+}
+
+.input__toolbar_send {
+    color: #00ACED;
+}
+
+.input__toolbar_emojipicker {
+    position: absolute;
+    bottom: 50px;
+}
